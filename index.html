@@ -48,11 +48,14 @@
     <main class="chats">
       <ul class="chats__list">
         <li class="chats__chat chat">
+          <!-- 
+            너무 많은 자식 Element가 생길 경우 새로 Element를 만들어 버리기
+          -->
           <div class="chat__column">
             <img
+              class="chat__avatar g-avatar"
               src="https://us.123rf.com/450wm/thesomeday123/thesomeday1231709/thesomeday123170900021/85622928-stock-vector-default-avatar-profile-icon-grey-photo-placeholder-illustrations-vectors.jpg?ver=6"
               alt=""
-              class="chat__avatar"
             />
             <div class="chat__content">
               <span class="chat__username">Gwuiin</span>
@@ -68,27 +71,28 @@
     </main>
 
     <nav class="nav">
-      <ul class="nav__list"></ul>
-      <li class="nav__list-item">
-        <a href="friends.html" class="nav__list-link">
-          <i class="far fa-user"></i>
-        </a>
-      </li>
-      <li class="nav__list-item">
-        <a href="index.html" class="nav__list-link">
-          <i class="fas fa-comment"></i>
-        </a>
-      </li>
-      <li class="nav__list-item">
-        <a href="find.html" class="nav__list-link">
-          <i class="fas fa-search"></i>
-        </a>
-      </li>
-      <li class="nav__list-item">
-        <a href="more.html" class="nav__list-link">
-          <i class="fas fa-ellipsis-h"></i>
-        </a>
-      </li>
+      <ul class="nav__list">
+        <li class="nav__list-item">
+          <a href="friends.html" class="nav__list-link">
+            <i class="far fa-user"></i>
+          </a>
+        </li>
+        <li class="nav__list-item">
+          <a href="index.html" class="nav__list-link">
+            <i class="fas fa-comment"></i>
+          </a>
+        </li>
+        <li class="nav__list-item">
+          <a href="find.html" class="nav__list-link">
+            <i class="fas fa-search"></i>
+          </a>
+        </li>
+        <li class="nav__list-item">
+          <a href="more.html" class="nav__list-link">
+            <i class="fas fa-ellipsis-h"></i>
+          </a>
+        </li>
+      </ul>
     </nav>
   </body>
 </html>
