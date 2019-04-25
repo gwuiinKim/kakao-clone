@@ -1,0 +1,10 @@
+.friend {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.friend .g-avatar {
+  width: 50px;
+  border-radius: 35%;
+}
