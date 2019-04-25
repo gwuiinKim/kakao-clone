@@ -1,0 +1,37 @@
+.more .more__btn-list {
+  margin: 30px 0px;
+  border-top: 1.5px solid #f7f7f7;
+  border-bottom: 1.5px solid #f7f7f7;
+
+  padding: 30px 10px;
+  display: flex;
+}
+
+.more .more__btn,
+.more .suggestion {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 30px;
+}
+
+.more .more__btn-title {
+  margin-top: 15px;
+}
+
+.more .more__suggestions-title {
+  opacity: 0.8;
+  margin-bottom: 20px;
+}
+
+.more .more__suggestions-list {
+  display: flex;
+}
+
+.more .suggestion i {
+  background-color: #fce006;
+
+  padding: 10px;
+  border-radius: 10px;
+  color: white;
+}

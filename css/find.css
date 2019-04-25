@@ -7,6 +7,10 @@
   margin-bottom: 40px;
 }
 
+.find .header-btn__icon {
+  font-size: 14px;
+}
+
 .find .header-btn {
   display: flex;
   flex-direction: column;
@@ -20,10 +24,10 @@
 .find .find__recommended {
   margin-top: 50px;
   border-top: 1.5px solid #f7f7f7;
-  padding-top: 20px;
+  padding-top: 30px;
 }
 
 .find__recommended .find__title {
   opacity: 0.7;
-  margin-bottom: 15px;
+  margin-bottom: 20px;
 }
