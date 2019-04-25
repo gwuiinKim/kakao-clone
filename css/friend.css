@@ -49,3 +49,12 @@
   opacity: 0.7;
   font-size: 14px;
 }
+
+.friend .friend__add-btn {
+  display: flex;
+  padding: 10px 15px;
+  background-color: #efcbcb;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
