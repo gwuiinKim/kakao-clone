@@ -15,34 +15,36 @@
     <title>Chat | Kakao Clone</title>
   </head>
   <body class="chat__body">
-    <div class="status-bar">
-      <div class="status-bar__column">
-        <span class="status-bar__clock">12:00</span>
+    <div class="header-wrapper">
+      <div class="status-bar">
+        <div class="status-bar__column">
+          <span class="status-bar__clock">12:00</span>
+        </div>
+
+        <div class="status-bar__column">
+          <i class="fas fa-clock"></i>
+          <i class="fas fa-volume-mute"></i>
+          <i class="fas fa-wifi"></i>
+          <span class="status-bar__battery-level">100%</span>
+          <i class="fas fa-battery-full"></i>
+        </div>
       </div>
 
-      <div class="status-bar__column">
-        <i class="fas fa-clock"></i>
-        <i class="fas fa-volume-mute"></i>
-        <i class="fas fa-wifi"></i>
-        <span class="status-bar__battery-level">100%</span>
-        <i class="fas fa-battery-full"></i>
-      </div>
+      <header class="header">
+        <div class="header__header-column">
+          <a href="index.html" class="header__back-btn">
+            <i class="fas fa-arrow-left fa"></i>
+          </a>
+          <h1 class="header__title">Chat</h1>
+        </div>
+
+        <div class="header__header-column">
+          <span class="header__icon">
+            <i class="fas fa-search"></i>
+          </span>
+        </div>
+      </header>
     </div>
-
-    <header class="header">
-      <div class="header__header-column">
-        <a href="index.html" class="header__back-btn">
-          <i class="fas fa-arrow-left fa"></i>
-        </a>
-        <h1 class="header__title">Chat</h1>
-      </div>
-
-      <div class="header__header-column">
-        <span class="header__icon">
-          <i class="fas fa-search"></i>
-        </span>
-      </div>
-    </header>
 
     <main class="chat">
       <ul class="chat__messages message friend">
@@ -61,7 +63,24 @@
         <li class="message__sent-message">
           <span class="message__timestamp">22:00</span>
           <div class="message__content">
-            <span class="message__bubble">Congratss I love You</span>
+            <span class="message__bubble sent-bubble">Thanks man!</span>
+          </div>
+        </li>
+        <li class="message__incoming-message">
+          <img
+            class="friend__avatar g-avatar "
+            src="https://us.123rf.com/450wm/thesomeday123/thesomeday1231709/thesomeday123170900021/85622928-stock-vector-default-avatar-profile-icon-grey-photo-placeholder-illustrations-vectors.jpg?ver=6"
+          />
+          <div class="message__content">
+            <span class="message__author">Best Friend</span>
+            <span class="message__bubble">Hope to see you again!</span>
+          </div>
+          <span class="message__timestamp">22:00</span>
+        </li>
+        <li class="message__sent-message">
+          <span class="message__timestamp">22:00</span>
+          <div class="message__content">
+            <span class="message__bubble sent-bubble">Me too!</span>
           </div>
         </li>
       </ul>
