@@ -1,5 +1,5 @@
 @import "reset.css";
-@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600");
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300, 400,600");
 @import "status-bar.css";
 @import "header.css";
 @import "nav-bar.css";
@@ -7,6 +7,7 @@
 @import "friends.css";
 @import "find.css";
 @import "more.css";
+@import "settings.css";
 
 * {
   box-sizing: border-box;
