@@ -97,9 +97,8 @@
   background-color: #f7f7f7;
   bottom: 0px;
   padding: 5px 50px;
-  border-radius: 40px;
-  box-shadow: 0 30px 60px -12px rgba(50, 50, 93, 0.25),
-    0 18px 36px -18px rgba(0, 0, 0, 0.3), 0 -12px 36px -8px rgba(0, 0, 0, 0.025);
+  transition: width 0.5s ease-in-out, box-shadow 0.5s ease-in-out,
+    border-radius 0.5s ease-in-out, transform 0.5s ease-in-out;
 }
 
 .chat__icon {
@@ -109,6 +108,17 @@
 
 .chat__write--container:focus-within .chat__icon {
   opacity: 0;
+}
+.chat__write--container:focus-within {
+  transform: translateY(-100px);
+  border-radius: 40px;
+  box-shadow: 0 30px 60px -12px rgba(50, 50, 93, 0.25),
+    0 18px 36px -18px rgba(0, 0, 0, 0.3), 0 -12px 36px -8px rgba(0, 0, 0, 0.025);
+  width: 80%;
+  transition: all 0.5s ease-in, all 0.5s ease-in-out;
+}
+.chat__write--container:focus-within .chat__write {
+  opacity: 1;
 }
 
 .chat__write i {
@@ -129,6 +139,7 @@
 
 .chat__write-input:focus {
   outline: none;
+  width: 80%;
 }
 
 .chat__write-input:focus + .chat__icon {
